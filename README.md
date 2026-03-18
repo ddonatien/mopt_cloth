@@ -1,4 +1,6 @@
 # mopt_cloth
+Code for *Disentangling perception and reasoning for improving data efficiency in learning cloth manipulation without demonstrations*  
+[Paper](https://arxiv.org/abs/2601.21713)  |  [Website](https://ddonatien.github.io/mopt-website/)
 ## Offline training
 ```python
 python train_offline.py --task cloth-flatten --num_epoch 60 --out_dir exp/policy --data_file <DATA_FILE> --run_group offline
